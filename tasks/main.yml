@@ -1,0 +1,16 @@
+---
+# tasks file for ansible-role-disable-edac
+# unload and blacklist all edac related modules
+- name: unload edac modules
+  become: yes
+  modprobe:
+    name: "{{ item }}"
+    state: absent
+  with_items: "{{ edac_modules }}"
+
+- name: blacklist edac modules
+  become: yes
+  kernel_blacklist:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ edac_modules }}"

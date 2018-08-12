@@ -1,0 +1,26 @@
+galaxy_info:
+  author: Klaas Demter
+  description: Unload and blacklist all edac related kernel modules
+  license: GPLv3
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+    - jessie
+    - stretch
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - xenial
+    - bionic
+  - name: Fedora
+    versions:
+    - all
+  - name: EL
+    versions:
+    - 6
+    - 7
+    - 8
+  galaxy_tags: [ 'system', 'edac' ]

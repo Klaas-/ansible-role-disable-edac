@@ -1,0 +1,22 @@
+---
+# defaults file for ansible-role-disable-edac
+# these could be seperated into which modules are shipped with
+# which OS, but it doesn't hurt to blacklist a nonexisting module
+edac_modules:
+  - amd64_edac_mod
+  - e752x_edac
+  - i3000_edac
+  - i3200_edac
+  - i5000_edac
+  - i5100_edac
+  - i5400_edac
+  - i7300_edac
+  - i7core_edac
+  - i82975x_edac
+  - ie31200_edac
+  - pnd2_edac
+  - sb_edac
+  - skx_edac
+  - x38_edac
+  - edac_mce_amd
+  - edac_core
