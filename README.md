@@ -1,7 +1,7 @@
 Ansible Role: Disable EDAC
 =========
 
-[![Build Status](https://travis-ci.org/Klaas-/ansible-role-ntp.svg?branch=master)](https://travis-ci.org/Klaas-/ansible-role-disable-edac)
+[![Build Status](https://travis-ci.org/Klaas-/ansible-role-disable-edac.svg?branch=master)](https://travis-ci.org/Klaas-/ansible-role-disable-edac)
 
 This role is designed to disable EDAC related modules.
 
