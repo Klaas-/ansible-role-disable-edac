@@ -1,5 +1,6 @@
 galaxy_info:
-  author: Klaas Demter
+  role_name: disable-edac
+  author: Klaas_
   description: Unload and blacklist all edac related kernel modules
   license: GPLv3
   min_ansible_version: 1.4
