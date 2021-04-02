@@ -5,6 +5,9 @@
 edac_modules:
   - amd64_edac_mod
   - e752x_edac
+  - edac_core
+  - edac_mce_amd
+  - i10nm_edac
   - i3000_edac
   - i3200_edac
   - i5000_edac
@@ -14,9 +17,8 @@ edac_modules:
   - i7core_edac
   - i82975x_edac
   - ie31200_edac
+  - igen6_edac
   - pnd2_edac
   - sb_edac
   - skx_edac
   - x38_edac
-  - edac_mce_amd
-  - edac_core
