@@ -1,5 +1,5 @@
 ---
-# tasks file for ansible-role-disable-edac
+# tasks file for disable_edac
 # unload all edac related modules
 - name: unload edac modules
   become: yes

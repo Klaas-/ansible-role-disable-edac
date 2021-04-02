@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: disable-edac
+  role_name: disable_edac
   author: Klaas_
   description: Unload and blacklist all edac related kernel modules
   license: GPLv3

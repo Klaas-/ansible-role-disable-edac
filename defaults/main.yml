@@ -1,5 +1,5 @@
 ---
-# defaults file for ansible-role-disable-edac
+# defaults file for disable_edac
 # these could be seperated into which modules are shipped with
 # which OS, but it doesn't hurt to blacklist a nonexisting module
 edac_modules:
